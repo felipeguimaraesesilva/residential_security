@@ -2,7 +2,7 @@
 
 SMS Based Residential Security is a prototype that allows the creation of an alarm system for residences that no possess Internet access.
 
-This prototype is using the presence sensor to trigger the alarm. But is possible to configure any kind of sensor compatible with arduino.
+This prototype is using the Motion Sensor to trigger the alarm. But is possible to configure any kind of sensor compatible with arduino.
 
 ## Prerequisites
 
@@ -17,15 +17,18 @@ The list of components used in this project:
 * Arduino Nano V3.0
 * Display LCD 16x2 com I2C
 * GSM GPRS SIM800L
-* Presence Sensor
+* Motion Sensor
 
 ## Arduino pinout
 
 * Sim800l:<br/>
 ![Sim800l](https://lastminuteengineers.com/wp-content/uploads/arduino/Arduino-Wiring-Fritzing-Connections-with-SIM800L-GSM-GPRS-Module-3.7V-LiPo-Battery.png)
 
-* LCD I2C
+* LCD I2C <br/>
 ![LCD I2C](https://www.makerguides.com/wp-content/uploads/2019/02/I2C-LCD-with-Arduino-Wiring-Diagram-Schematic-Pinout.jpg)
+
+* Motion Sensor <br/>
+![Motion Sensor](http://www.learningaboutelectronics.com/images/Arduino-motion-sensor-circuit.png)
 
 
 ## Contact
